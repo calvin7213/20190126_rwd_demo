@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+
+/* common====================== */
+.text_shadow{
+    text-shadow: 2px 2px 4px #c8c8c8;
+}
+
+
+/* main ======================= */
+.main{
+   height: 900px;
+   background: url("./img/confortableDesk.jpg");
+   background-position: center;
+   background-size: cover;
+   padding: 150px 0 100px 0;
+   font-family: 'Coiny', cursive;
+}
+
+.focus{
+    height: 150px;
+}
+
+.title{
+    font-size: 75px;
+}
+
+/* jobs============================== */
+.jobs{
+   /* height: 700px; */
+   background: url("./img/bethany-legg-9248.jpg");
+   background-position: center;
+   background-size: cover;
+}
+
+/* mobile version =========== */
+@media only screen and(max-width:400px){
+   main{
+       padding:50px 0 100px 0;
+   }
+   title{
+       font-size: 55px;
+   }
+} 
